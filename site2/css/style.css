@@ -3,13 +3,32 @@ html, body{
 }
 
 .wrapper{
-	width: 1024px;
+	max-width: 1024px;
 	margin: 0 auto;
 	height: inherit;
 }
 
 header{
-	background: #FF0000;
-	height: 150px;
+	background: #F46262;
+	opacity: 0.7;
+	height: 100px;
 }
 
+.name{
+	background: #EB504E;
+	height: 150px;
+}
+.pros{
+	background: #232323;
+	height: 300px;
+}
+.team{
+	background: #6CC372;
+	height: 500px;
+}
+
+footer{
+	background: #232323;
+	opacity: 0.7;
+	height: 50px;
+}
