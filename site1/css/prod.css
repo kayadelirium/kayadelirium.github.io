@@ -1,0 +1,18 @@
+.album{
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-ms-transform: all 0.5s ease-out;
+}
+
+.album:hover{ 
+	-webkit-transform: scale(1.05);
+ 	-moz-transform: scale(1.05);
+  	-o-transform: scale(1.05);
+  	-ms-transform: scale(1.05);
+}
