@@ -1,0 +1,15 @@
+html, body{
+	margin: 0;
+}
+
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	height: inherit;
+}
+
+header{
+	background: #FF0000;
+	height: 150px;
+}
+
